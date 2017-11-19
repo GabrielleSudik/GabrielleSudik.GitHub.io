@@ -1,4 +1,4 @@
-@import 'libs/vars';
+﻿@import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
 @charset "UTF-8";
@@ -491,11 +491,13 @@
 		}
 
 		&.avatar {
-			border-radius: 100%;
+            /*try changing this to make half-circle. I think Bob's walkthrough says how*/
+			border-radius: 100% 100% 100% 15%;;
 			overflow: hidden;
 
 			img {
-				border-radius: 100%;
+            /*try changing this to make half-circle. look for more*/
+				border-radius: 100% 100% 100% 15%;;
 				display: block;
 				width: 100%;
 			}

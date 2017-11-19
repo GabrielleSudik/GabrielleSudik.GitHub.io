@@ -9,17 +9,38 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/* Here's your imported font info. Use as needed:
+    font-family: 'Libre Baskerville', serif;  (caps and lower)
+    font-family: 'Cinzel', serif;  (all caps with mini caps)
+    font-family: 'Cinzel Decorative', cursive;  (ditto, but slightly fancy)
+*/
+
+/* Here are some colors:
+    #3f2a14;  dark cool brown
+    #6582C6;  light blue
+    #8DFEE2;  light turqouise
+    #95E869;  light forest green
+*/
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+    blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, 
+    kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, 
+    ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+    article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, 
+    nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+        /*font-family: 'Libre Baskerville', serif; */ /*mine*/
+        font-family: 'Cinzel', serif; /*mine*/
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
+        font-family: 'Cinzel', serif; /*mine*/
 	}
 
 	body {
@@ -1551,11 +1572,12 @@
 /* Basic */
 
 	body {
-		background: #fff;
+        /*will-change FFF to light turq!*/
+		background: #fff; /*white, change*/
 	}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #3f2a14;  /*dark cool brown*/
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1567,18 +1589,18 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
+		border-bottom: solid 1px #e4e4e4; /*off white make color*/
 		color: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #3f2a14  /*dark cool brown*/ !important; /*default turq, change to brown*/
 		}
 
 	strong, b {
-		color: #777;
+		color: #3f2a14;  /*dark cool brown*/
 		font-weight: 700;
 	}
 
@@ -1591,7 +1613,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #3f2a14;  /*dark cool brown*/
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1658,9 +1680,9 @@
 	}
 
 	code {
-		background: #555;
+		background: #3f2a14;  /*dark cool brown*/
 		border-radius: 5px;
-		color: #fff;
+		color: #fff; /*white, change*/
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1700,7 +1722,7 @@
 	}
 
 	header p {
-		color: #aaa;
+		color: #3f2a14;  /*dark cool brown*/
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1726,12 +1748,12 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #3f2a14;  /*dark cool brown*/
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #3f2a14;  /*dark cool brown*/
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1744,7 +1766,7 @@
 	}
 
 	label {
-		color: #777;
+		color: #3f2a14;  /*dark cool brown*/
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -1789,7 +1811,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #3f2a14;  /*dark cool brown*/
 		}
 
 	.select-wrapper {
@@ -1808,7 +1830,7 @@
 		}
 
 		.select-wrapper:before {
-			color: #e4e4e4;
+			color: #e4e4e4; /*off white, change*/
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -1853,7 +1875,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #888;
+			color: #3f2a14;  /*dark cool brown*/
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1891,15 +1913,15 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #989898;
-			border-color: #989898;
-			color: #ffffff;
+			background: #3f2a14;  /*dark cool brown*/
+			border-color: #3f2a14;  /*dark cool brown*/
+			color: #8DFEE2;  /*light turqouise*/
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #3f2a14;  /*dark cool brown*/
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1907,35 +1929,35 @@
 	}
 
 	input[type="radio"] + label:before {
-		border-radius: 100%;
+		border-radius: 80%;
 	}
 
 	::-webkit-input-placeholder {
-		color: #aaa !important;
+		color: #aaa !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #aaa !important;
+		color: #aaa !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #aaa !important;
+		color: #aaa !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #aaa !important;
+		color: #aaa !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #aaa !important;
+		color: #aaa !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
@@ -2020,12 +2042,14 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+            /*change to make like a G:*/
+			border-radius: 60% 60% 20% 60%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+                /*change to make like a G:*/
+				border-radius: 60% 60% 20% 60%;
 				display: block;
 				width: 100%;
 			}
@@ -2092,9 +2116,9 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
-					border-radius: 100%;
-					color: #ffffff;
+					background: #3f2a14;  /*dark cool brown*/
+					border-radius: 80%;
+					color: #8DFEE2;  /*light turqouise*/
 					display: block;
 					height: 2.5em;
 					left: 0;
@@ -2214,7 +2238,7 @@
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #fafafa;
+				background-color: #fafafa; /*off white, change*/
 			}
 
 		table td {
@@ -2222,7 +2246,7 @@
 		}
 
 		table th {
-			color: #777;
+			color: #3f2a14;  /*dark cool brown*/
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2277,10 +2301,11 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898;
+		background-color: #989898; /* med grey, change */
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #8DFEE2  !important; /*light turqouise*/ 
+
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2296,15 +2321,15 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #a5a5a5;
-			color: #ffffff !important;
+			background-color: #a5a5a5; /*grey, change*/
+			color: #8DFEE2  /*light turqouise*/ !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #8b8b8b;
+			background-color: #3f2a14;  /*dark cool brown*/ 
 		}
 
 		input[type="submit"].icon,
@@ -2349,52 +2374,52 @@
 		input[type="button"].alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e4e4e4;
-			color: #777 !important;
+			box-shadow: inset 0 0 0 2px #e4e4e4; /*light grey, change*/
+			color: #3f2a14  /*dark cool brown*/ !important;
 		}
 
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #f4f4f4;
-				color: #777 !important;
+				background-color: #f4f4f4; /*offwhite, change*/
+				color: #3f2a14  /*dark cool brown*/ !important;
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: #eaeaea;
+				background-color: #eaeaea; /*off white, change*/
 			}
 
 			input[type="submit"].alt.icon:before,
 			input[type="reset"].alt.icon:before,
 			input[type="button"].alt.icon:before,
 			.button.alt.icon:before {
-				color: #aaa;
+				color: #aaa; /*lightish grey, make blur or turg or gr?*/
 			}
 
 		input[type="submit"].special,
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
-			color: #ffffff !important;
+			background-color: #3f2a14;  /*dark cool brown*/
+			color: #8DFEE2  /*light turqouise*/ !important;
 		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5ed0b1;
+				background-color: #3f2a14;  /*dark cool brown*/
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #39c29d;
+				background-color: #3f2a14;  /*dark cool brown*/
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2404,9 +2429,9 @@
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #888 !important;
+			background-color: #3f2a14  /*dark cool brown*/ !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important;
+			color: #fff !important; /*white, make light color*/
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2440,6 +2465,8 @@
 			display: inline-block;
 			vertical-align: middle;
 			width: 50%;
+            /*try making auto to deal with embiggened pics*/
+            /*width: auto;*/
 		}
 
 			.features article .inner > :last-child {
@@ -2461,8 +2488,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
-		color: #d1f1e9;
+		background: #3f2a14;  /*dark cool brown*/
+		color: #d1f1e9; /*default light make color*/
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2473,23 +2500,23 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #8DFEE2;  /*light turqouise*/
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #8DFEE2;  /*light turqouise*/
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #b6e9dc; /*default light blue, change to yours*/
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #d1f1e9; /*default light blue, change to yours*/
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #8DFEE2  /*light turqouise*/ !important;
 			}
 
 		#header > header {
@@ -2502,7 +2529,7 @@
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1.75em auto;
 				width: 8em;
 			}
 
@@ -2512,7 +2539,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #d1f1e9; /*default light blue, change to yours*/
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2533,7 +2560,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #b6e9dc; /*default light blue, change to yours*/
 				}
 
 		#header > nav {
@@ -2561,15 +2588,15 @@
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #8DFEE2  /*light turqouise*/ !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #fff; /*white, change*/
+							color: #3f2a14  /*dark cool brown*/ !important; /*med turq change to brown*/
 						}
 
 					#header > nav ul li:first-child {
@@ -2579,7 +2606,7 @@
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: #fff; /*white, change*/
 		padding-right: 23em;
 	}
 
@@ -2613,9 +2640,9 @@
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #fafafa; /*white make color*/
 		border-top: 0;
-		color: #c0c0c0;
+		color: #c0c0c0; /*light grey, change*/
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -2806,13 +2833,13 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
-				color: #fff;
+				background: #3f2a14;  /*dark cool brown*/
+				color: #fff; /*white, change*/
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: #fff; /*white, change*/
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -2848,8 +2875,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
-						color: #ffffff;
+						background: #3f2a14;  /*dark cool brown*/
+						color: #8DFEE2;  /*light turqouise*/
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
@@ -2939,7 +2966,10 @@
 
 			.features article .inner {
 				display: block;
-				width: 100%;
+                /*need to adjust here too?
+				width: 100%;*/
+                /*width: auto;*/
+                width: 100%
 			}
 
 		/* Header */
@@ -3088,3 +3118,23 @@
 			}
 
 	}
+
+    /*new thing to embiggen pics (I hope)*/
+
+    .image:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:120% !important;
+    /*width: 300%;*/
+    /*width: 1500px;*/
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+    /*highlighting in paragraphs and stuff*/
+
+    .highlight{
+        font-style: italic;
+    }
