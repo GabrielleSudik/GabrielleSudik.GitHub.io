@@ -19,7 +19,7 @@
     #3f2a14;  dark cool brown
     #6582C6;  light blue
     #8DFEE2;  light turqouise
-    #95E869;  light forest green
+    #DAFDB8;  light forest green
 */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
@@ -1572,8 +1572,8 @@
 /* Basic */
 
 	body {
-        /*will-change FFF to light turq!*/
-		background: #fff; /*white, change*/
+        /*not sure what this is background too, make same as wrapper background*/
+		background: #DAFDB8; /*very light green*/
 	}
 
 	body, input, select, textarea {
@@ -1589,7 +1589,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4; /*off white make color*/
+		border-bottom: solid 1px #8DFEE2;  /*light turqouise*/
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1682,7 +1682,7 @@
 	code {
 		background: #3f2a14;  /*dark cool brown*/
 		border-radius: 5px;
-		color: #fff; /*white, change*/
+		color: #8DFEE2;  /*light turqouise*/
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1749,7 +1749,7 @@
 
 	header.major h2 {
 		color: #3f2a14;  /*dark cool brown*/
-		font-size: 3.5em;
+		font-size: 2.75em;
 	}
 
 		header.major h2 + p {
@@ -1789,7 +1789,7 @@
 		appearance: none;
 		border-radius: 5px;
 		border: none;
-		border: solid 2px #e4e4e4;
+		border: solid 2px #8DFEE2;  /*light turqouise*/
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1830,7 +1830,7 @@
 		}
 
 		.select-wrapper:before {
-			color: #e4e4e4; /*off white, change*/
+			color: #8DFEE2;  /*light turqouise*/
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -1897,9 +1897,9 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #fafafa;
+				background: #8DFEE2;  /*light turqouise*/
 				border-radius: 5px;
-				border: solid 2px #e4e4e4;
+				border: solid 2px #3f2a14;  /*dark cool brown*/
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -1933,31 +1933,31 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #aaa !important; /*lightish grey, change to a color*/
+		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #aaa !important; /*lightish grey, change to a color*/
+		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #aaa !important; /*lightish grey, change to a color*/
+		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #aaa !important; /*lightish grey, change to a color*/
+		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #aaa !important; /*lightish grey, change to a color*/
+		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to brown???*/
 		font-style: italic;
 		opacity: 1.0;
 	}
@@ -1966,7 +1966,7 @@
 
 	.box {
 		border-radius: 5px;
-		border: solid 2px #e4e4e4;
+		border: solid 2px #8DFEE2;  /*light turqouise*/
 		margin-bottom: 2.25em;
 		padding: 1.5em;
 	}
@@ -2082,7 +2082,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 2px #f4f4f4;
+				border-top: solid 2px #f4f4f4; /*off white make turq*/
 				padding: 0.5em 0;
 			}
 
@@ -2232,13 +2232,13 @@
 	}
 
 		table tbody tr {
-			border: solid 2px #f4f4f4;
+			border: solid 2px #8DFEE2;  /*light turqouise*/
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #fafafa; /*off white, change*/
+				background-color: #8DFEE2;  /*light turqouise*/
 			}
 
 		table td {
@@ -2254,11 +2254,11 @@
 		}
 
 		table thead {
-			border-bottom: solid 4px #e4e4e4;
+			border-bottom: solid 4px #e4e4e4; /*off white make turq? or maybe brown?*/
 		}
 
 		table tfoot {
-			border-top: solid 4px #e4e4e4;
+			border-top: solid 4px #e4e4e4; /*same as last*/
 		}
 
 		table.alt {
@@ -2266,7 +2266,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #e4e4e4;
+				border: solid 2px #e4e4e4; /*off white make turq*/
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2301,7 +2301,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898; /* med grey, change */
+		background-color: #3f2a14;  /*dark cool brown*/
 		border-radius: 5px;
 		border: 0;
 		color: #8DFEE2  !important; /*light turqouise*/ 
@@ -2321,7 +2321,7 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #a5a5a5; /*grey, change*/
+			background-color: #3f2a14;  /*dark cool brown*/
 			color: #8DFEE2  /*light turqouise*/ !important;
 		}
 
@@ -2374,7 +2374,7 @@
 		input[type="button"].alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e4e4e4; /*light grey, change*/
+			box-shadow: inset 0 0 0 2px #8DFEE2;  /*light turqouise*/
 			color: #3f2a14  /*dark cool brown*/ !important;
 		}
 
@@ -2382,7 +2382,7 @@
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #f4f4f4; /*offwhite, change*/
+				background-color: #8DFEE2;  /*light turqouise*/
 				color: #3f2a14  /*dark cool brown*/ !important;
 			}
 
@@ -2390,14 +2390,14 @@
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: #eaeaea; /*off white, change*/
+				background-color: #8DFEE2;  /*light turqouise*/
 			}
 
 			input[type="submit"].alt.icon:before,
 			input[type="reset"].alt.icon:before,
 			input[type="button"].alt.icon:before,
 			.button.alt.icon:before {
-				color: #aaa; /*lightish grey, make blur or turg or gr?*/
+				color: #8DFEE2;  /*light turqouise*/
 			}
 
 		input[type="submit"].special,
@@ -2431,7 +2431,7 @@
 		.button:disabled {
 			background-color: #3f2a14  /*dark cool brown*/ !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important; /*white, make light color*/
+			color: #8DFEE2  /*light turqouise*/ !important; /*white, make light color*/
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2439,7 +2439,7 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #8DFEE2;  /*light turqouise*/
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2489,7 +2489,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #3f2a14;  /*dark cool brown*/
-		color: #d1f1e9; /*default light make color*/
+		color: #8DFEE2;  /*light turqouise*/
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2508,11 +2508,11 @@
 			}
 
 		#header header p {
-			color: #b6e9dc; /*default light blue, change to yours*/
+			color: #8DFEE2;  /*light turqouise*/
 		}
 
 		#header a {
-			color: #d1f1e9; /*default light blue, change to yours*/
+			color: #8DFEE2;  /*light turqouise*/
 		}
 
 			#header a:hover {
@@ -2539,7 +2539,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9; /*default light blue, change to yours*/
+				color: #8DFEE2;  /*light turqouise*/
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2560,7 +2560,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc; /*default light blue, change to yours*/
+					color: #8DFEE2;  /*light turqouise*/
 				}
 
 		#header > nav {
@@ -2577,7 +2577,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #5ccfb0; /*dark turq make brown*/
 					display: block;
 					padding: 0;
 				}
@@ -2595,7 +2595,7 @@
 					}
 
 						#header > nav ul li a.active {
-							background: #fff; /*white, change*/
+							background: #8DFEE2;  /*light turqouise*/
 							color: #3f2a14  /*dark cool brown*/ !important; /*med turq change to brown*/
 						}
 
@@ -2605,15 +2605,16 @@
 
 /* Wrapper */
 
-	#wrapper {
-		background: #fff; /*white, change*/
-		padding-right: 23em;
-	}
+#wrapper {
+    /*THIS IS THE FULL PAGE BACKGROUND -- make very light green or blue*/
+    background: #DAFDB8 !important; /*very light green*/
+    padding-right: 23em;
+}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #f4f4f4; /*white make turq or brown*/
 	}
 
 		#main > section > .container {
@@ -2626,23 +2627,28 @@
 
 /* One */
 
-	#one:before {
-		background-image: url("../../images/banner.jpg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: cover;
-		content: '';
-		display: block;
-		height: 15em;
-		width: 100%;
-	}
+/*try taking this out, putting photo behind another section.*/
+
+#one:before {
+    /*edit this to add photo, maybe title*/
+    /*it's not changing anything page tho...*/
+    background-position: top right;
+    background-image: url('../../images/CratersMoonBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ''; /*that was originally a ''*/
+    display: block;
+    height: 15em;
+    width: 100%;
+}
+ 
 
 /* Footer */
 
 	#footer {
-		background: #fafafa; /*white make color*/
+		background: #8DFEE2;  /*light turqouise*/
 		border-top: 0;
-		color: #c0c0c0; /*light grey, change*/
+		color: #3f2a14;  /*dark cool brown*/
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -2654,7 +2660,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #d4d4d4;
+				border-left: solid 1px #d4d4d4; /*grey, make brown*/
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;
@@ -2834,12 +2840,12 @@
 				width: 100%;
 				z-index: 10001;
 				background: #3f2a14;  /*dark cool brown*/
-				color: #fff; /*white, change*/
+				color: #8DFEE2;  /*light turqouise*/
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff; /*white, change*/
+					color: #8DFEE2;  /*light turqouise*/
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -3119,9 +3125,9 @@
 
 	}
 
-    /*new thing to embiggen pics (I hope)*/
+    /*new thing to embiggen pics (I hope) DONE*/
 
-    .image:hover {
+    .portImage:hover {
     position:relative;
     top:-25px;
     left:-35px;

@@ -1028,15 +1028,17 @@
 
 /* One */
 
-	#one {
+	#one  {
 		&:before {
-			background-image: url('../../images/banner.jpg');
+            /*MAYBE this is where to change the banner background?? It's not changing elsewhere.*/
+			/*background-image: url('../../images/banner.jpg');*/
+            background-image: url('../../images/CratersMoonBanner.jpg');
 			background-position: top right;
 			background-repeat: no-repeat;
 			background-size: cover;
-			content: '';
+			content: ''; /*was originally ''*/
 			display: block;
-			height: 15em;
+			height: /*15em;*/ auto;
 			width: 100%;
 		}
 	}
