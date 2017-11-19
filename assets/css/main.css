@@ -13,11 +13,14 @@
     font-family: 'Libre Baskerville', serif;  (caps and lower)
     font-family: 'Cinzel', serif;  (all caps with mini caps)
     font-family: 'Cinzel Decorative', cursive;  (ditto, but slightly fancy)
+
+    LEAVE FONT AWESOME ALONE!!! (it's where the little icons come from)
 */
 
 /* Here are some colors:
     #3f2a14;  dark cool brown
-    #6582C6;  light blue
+    #b5dbee;  light blue
+    #adc8ee;  rich light blue
     #8DFEE2;  light turqouise
     #DAFDB8;  light forest green
 */
@@ -1578,7 +1581,8 @@
 
 	body, input, select, textarea {
 		color: #3f2a14;  /*dark cool brown*/
-		font-family: "Lato", sans-serif;
+		/*font-family: "Lato", sans-serif;*/
+        font-family: 'Cinzel', serif; /*mine*/
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1589,7 +1593,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #8DFEE2;  /*light turqouise*/
+		border-bottom: solid 1px #adc8ee;  /*light turqouise*/
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1682,15 +1686,17 @@
 	code {
 		background: #3f2a14;  /*dark cool brown*/
 		border-radius: 5px;
-		color: #8DFEE2;  /*light turqouise*/
-		font-family: "Source Code Pro", monospace;
+		color: #adc8ee;  /*light turqouise*/
+		/*font-family: "Source Code Pro", monospace;*/
+        font-family: 'Cinzel', serif; /*mine*/
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
-		font-family: "Source Code Pro", monospace;
+		/*font-family: "Source Code Pro", monospace;*/
+        font-family: 'Cinzel', serif; /*mine*/
 		font-size: 0.9em;
 		margin: 0 0 2.25em 0;
 	}
@@ -1789,7 +1795,7 @@
 		appearance: none;
 		border-radius: 5px;
 		border: none;
-		border: solid 2px #8DFEE2;  /*light turqouise*/
+		border: solid 2px #adc8ee;  /*light turqouise*/
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1824,13 +1830,14 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
+
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
 		}
 
 		.select-wrapper:before {
-			color: #8DFEE2;  /*light turqouise*/
+			color: #adc8ee;  /*light turqouise*/
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -1890,6 +1897,7 @@
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
+
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1897,7 +1905,7 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #8DFEE2;  /*light turqouise*/
+				background: #adc8ee;  /*light turqouise*/
 				border-radius: 5px;
 				border: solid 2px #3f2a14;  /*dark cool brown*/
 				content: '';
@@ -1915,7 +1923,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #3f2a14;  /*dark cool brown*/
 			border-color: #3f2a14;  /*dark cool brown*/
-			color: #8DFEE2;  /*light turqouise*/
+			color: #adc8ee;  /*light turqouise*/
 			content: '\f00c';
 		}
 
@@ -1933,31 +1941,31 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
+		color: #adc8ee  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
+		color: #adc8ee  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
+		color: #adc8ee  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to a color*/
+		color: #adc8ee  /*light turqouise*/ !important; /*lightish grey, change to a color*/
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #8DFEE2  /*light turqouise*/ !important; /*lightish grey, change to brown???*/
+		color: #adc8ee  /*light turqouise*/ !important; /*lightish grey, change to brown???*/
 		font-style: italic;
 		opacity: 1.0;
 	}
@@ -1966,7 +1974,7 @@
 
 	.box {
 		border-radius: 5px;
-		border: solid 2px #8DFEE2;  /*light turqouise*/
+		border: solid 2px #adc8ee;  /*light turqouise*/
 		margin-bottom: 2.25em;
 		padding: 1.5em;
 	}
@@ -1995,6 +2003,7 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
+
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2110,6 +2119,7 @@
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: FontAwesome;
+
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -2118,7 +2128,7 @@
 				ul.feature-icons li:before {
 					background: #3f2a14;  /*dark cool brown*/
 					border-radius: 80%;
-					color: #8DFEE2;  /*light turqouise*/
+					color: #adc8ee;  /*light turqouise*/
 					display: block;
 					height: 2.5em;
 					left: 0;
@@ -2232,13 +2242,13 @@
 	}
 
 		table tbody tr {
-			border: solid 2px #8DFEE2;  /*light turqouise*/
+			border: solid 2px #adc8ee;  /*light turqouise*/
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #8DFEE2;  /*light turqouise*/
+				background-color: #adc8ee;  /*light turqouise*/
 			}
 
 		table td {
@@ -2304,7 +2314,7 @@
 		background-color: #3f2a14;  /*dark cool brown*/
 		border-radius: 5px;
 		border: 0;
-		color: #8DFEE2  !important; /*light turqouise*/ 
+		color: #adc8ee  !important; /*light turqouise*/ 
 
 		cursor: pointer;
 		display: inline-block;
@@ -2322,7 +2332,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #3f2a14;  /*dark cool brown*/
-			color: #8DFEE2  /*light turqouise*/ !important;
+			color: #adc8ee  /*light turqouise*/ !important;
 		}
 
 		input[type="submit"]:active,
@@ -2374,7 +2384,7 @@
 		input[type="button"].alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #8DFEE2;  /*light turqouise*/
+			box-shadow: inset 0 0 0 2px #adc8ee;  /*light turqouise*/
 			color: #3f2a14  /*dark cool brown*/ !important;
 		}
 
@@ -2382,7 +2392,7 @@
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #8DFEE2;  /*light turqouise*/
+				background-color: #adc8ee;  /*light turqouise*/
 				color: #3f2a14  /*dark cool brown*/ !important;
 			}
 
@@ -2390,14 +2400,14 @@
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: #8DFEE2;  /*light turqouise*/
+				background-color: #adc8ee;  /*light turqouise*/
 			}
 
 			input[type="submit"].alt.icon:before,
 			input[type="reset"].alt.icon:before,
 			input[type="button"].alt.icon:before,
 			.button.alt.icon:before {
-				color: #8DFEE2;  /*light turqouise*/
+				color: #adc8ee;  /*light turqouise*/
 			}
 
 		input[type="submit"].special,
@@ -2405,7 +2415,7 @@
 		input[type="button"].special,
 		.button.special {
 			background-color: #3f2a14;  /*dark cool brown*/
-			color: #8DFEE2  /*light turqouise*/ !important;
+			color: #adc8ee  /*light turqouise*/ !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2431,7 +2441,7 @@
 		.button:disabled {
 			background-color: #3f2a14  /*dark cool brown*/ !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #8DFEE2  /*light turqouise*/ !important; /*white, make light color*/
+			color: #adc8ee  /*light turqouise*/ !important; /*white, make light color*/
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2439,7 +2449,7 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #8DFEE2;  /*light turqouise*/
+		border-top: solid 3px #adc8ee;  /*light turqouise*/
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2489,7 +2499,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #3f2a14;  /*dark cool brown*/
-		color: #8DFEE2;  /*light turqouise*/
+		color: #adc8ee;  /*light turqouise*/
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2500,23 +2510,23 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #8DFEE2;  /*light turqouise*/
+			color: #adc8ee;  /*light turqouise*/
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #8DFEE2;  /*light turqouise*/
+				color: #adc8ee;  /*light turqouise*/
 			}
 
 		#header header p {
-			color: #8DFEE2;  /*light turqouise*/
+			color: #adc8ee;  /*light turqouise*/
 		}
 
 		#header a {
-			color: #8DFEE2;  /*light turqouise*/
+			color: #adc8ee;  /*light turqouise*/
 		}
 
 			#header a:hover {
-				color: #8DFEE2  /*light turqouise*/ !important;
+				color: #adc8ee  /*light turqouise*/ !important;
 			}
 
 		#header > header {
@@ -2539,7 +2549,7 @@
 			}
 
 			#header > header p {
-				color: #8DFEE2;  /*light turqouise*/
+				color: #adc8ee;  /*light turqouise*/
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2560,7 +2570,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #8DFEE2;  /*light turqouise*/
+					color: #adc8ee;  /*light turqouise*/
 				}
 
 		#header > nav {
@@ -2588,14 +2598,14 @@
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #8DFEE2  /*light turqouise*/ !important;
+						color: #adc8ee  /*light turqouise*/ !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #8DFEE2;  /*light turqouise*/
+							background: #adc8ee;  /*light turqouise*/
 							color: #3f2a14  /*dark cool brown*/ !important; /*med turq change to brown*/
 						}
 
@@ -2633,7 +2643,7 @@
     /*edit this to add photo, maybe title*/
     /*it's not changing anything page tho...*/
     background-position: top right;
-    background-image: url('../../images/CratersMoonBanner.jpg');
+    background-image: url('../../images/cratersmoonbanner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     content: ''; /*that was originally a ''*/
@@ -2646,7 +2656,7 @@
 /* Footer */
 
 	#footer {
-		background: #8DFEE2;  /*light turqouise*/
+		background: #adc8ee;  /*light turqouise*/
 		border-top: 0;
 		color: #3f2a14;  /*dark cool brown*/
 		overflow: hidden;
@@ -2840,12 +2850,12 @@
 				width: 100%;
 				z-index: 10001;
 				background: #3f2a14;  /*dark cool brown*/
-				color: #8DFEE2;  /*light turqouise*/
+				color: #adc8ee;  /*light turqouise*/
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #8DFEE2;  /*light turqouise*/
+					color: #adc8ee;  /*light turqouise*/
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -2875,6 +2885,7 @@
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						font-family: FontAwesome;
+
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -2882,7 +2893,7 @@
 
 					#titleBar .toggle:before {
 						background: #3f2a14;  /*dark cool brown*/
-						color: #8DFEE2;  /*light turqouise*/
+						color: #adc8ee;  /*light turqouise*/
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
