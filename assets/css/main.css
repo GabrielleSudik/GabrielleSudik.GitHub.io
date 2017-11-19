@@ -2643,7 +2643,7 @@
     /*edit this to add photo, maybe title*/
     /*it's not changing anything page tho...*/
     background-position: top right;
-    background-image: url('../../images/cratersmoonbanner.jpg');
+    background-image: url('../../images/CratersMoonBanner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     content: ''; /*that was originally a ''*/
