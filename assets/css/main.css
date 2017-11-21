@@ -1673,7 +1673,7 @@
 	}
 
 		hr.major {
-			margin: 3.375em 0;
+			margin: 2.375em 0; /*originally 3.375. no effect lol*/
 		}
 
 	blockquote {
@@ -1762,7 +1762,7 @@
 			color: #3f2a14;  /*dark cool brown*/
 			font-size: 1.75em;
 			font-weight: 700;
-			margin-top: -0.75em;
+			margin-top: -0.75em; 
 		}
 
 /* Form */
@@ -2648,7 +2648,7 @@
     background-size: cover;
     content: ''; /*that was originally a ''*/
     display: block;
-    height: 15em;
+    height: 10em; /*was originally 15*/
     width: 100%;
 }
  
@@ -2828,7 +2828,7 @@
 		/* One */
 
 			#one:before {
-				height: 10em;
+				height: 6em; /*originally 10*/
 			}
 
 		/* Off-Canvas Navigation */
@@ -3030,7 +3030,7 @@
 		/* One */
 
 			#one:before {
-				height: 7em;
+				height: 5em; /*originally 7*/
 			}
 
 		/* Footer */
@@ -3144,8 +3144,6 @@
     top:-25px;
     left:-35px;
     width:120% !important;
-    /*width: 300%;*/
-    /*width: 1500px;*/
     height:auto;
     display:block;
     z-index:999;
